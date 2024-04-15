@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-        <h1>My Blog</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -17,6 +16,10 @@
             </ul>
         </nav>
     </header>
+
+    <section>
+        <div class="title">My Blog</div>
+    </section>
 
     <div class="container">
         <main>
@@ -32,13 +35,22 @@
                 <a href="post2.html">Read more</a>
             </article>
         </main>
-
+        <aside>
+            <h3>Recent Posts</h3>
+            <select onchange="location = this.value;">
+                <option value="" selected disabled>Select a post</option>
+                <option value="introduction.html">Introduction</option>
+                <option value="orem.html">Orem</option>
+                <option value="back_to_uni.html">Back To Hawaii</option>
+            </select>
+        </aside>
         <aside>
             <h3>Recent Posts</h3>
             <ul>
                 <li><a href="introduction.html">Introduction</a></li>
                 <li><a href="orem.html">Orem</a></li>
                 <li><a href="back_to_uni.html">Back To Hawaii</a></li>
+                <li><a href="template.html">template</a></li>
             </ul>
         </aside>
     </div>
