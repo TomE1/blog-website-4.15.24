@@ -30,10 +30,7 @@ header {
     text-align: right;
 }
 
-.title{
-    align-items: center;
-    justify-content: center;
-}
+
 
 header h1 {
     margin: 0;
@@ -44,6 +41,11 @@ header h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
+}
+
+.title{
+    margin-left: 50px;
+ 
 }
 
 aside ul li a {
@@ -72,6 +74,11 @@ nav ul li a:hover {
     color: #0F0F0F;
     text-decoration: none;
     font-size: 1.2em;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 25px;
 }
 main {
     flex: 2;
@@ -115,10 +122,10 @@ aside {
 
 
 footer {
-    /* background-color: #9414e3; */
-    color: #333;
+    color: #fff;
+    font-size: 1.3rem;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     clear: both;
 }
 
